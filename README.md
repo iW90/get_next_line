@@ -1,4 +1,4 @@
-# 42SP_Get_Next_Line
+# 42SP_get_next_line
 
 Este projeto é capaz de ler uma linha de um arquivo de texto, identificado por um descritor de arquivo, a cada chamada da função. A GNL precisa ser capaz de lidar com diferentes arquivos de entrada e ler cada linha de forma independente.
 
