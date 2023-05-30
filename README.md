@@ -24,27 +24,31 @@ Caso queira sobrescrever o tamanho do **BUFFER_SIZE**, deve-se passar o valor po
 
 	cc -Werror -Wextra -Wall -D **BUFFER_SIZE**=3 get_next_line.c get_next_line_utils.c main.c
 
-E para executar, temos algumas opções:
+Para compilar o bônus, o procedimento é o mesmo, mas utilizando os arquivos bônus:
 
-- Gerar números aleatórios
+	cc -Werror -Wextra -Wall -D **BUFFER_SIZE**=3 get_next_line_bonus.c get_next_line_utils_bonus.c main.c
+
+E para executar, temos algumas opções.
+
+- Gera números aleatórios:
 
 	```
 	./a.out /dev/random
 	```
 
-- Standart input: Recebe uma entrada que nós digitamos e nossa GNL deve imprimir o mesmo texto (interrompa com ctrl+c)
+- Standart input: Recebe uma entrada que nós digitamos e nossa GNL deve imprimir o mesmo texto (interrompa com ctrl+c):
 
 	```
 	./a.out /dev/tty
 	```
 
-- Ler um arquivo
+- Lê um arquivo
 
 	```
 	./a.out file
 	```
 
-- \[**Bônus**] Ler vários arquivos
+- \[**Bônus**] Lê vários arquivos
 
 	```
 	./a.out file0 file1 file2
