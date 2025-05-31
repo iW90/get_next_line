@@ -1,6 +1,6 @@
 # 42 Cursus - get_next_line
 
-<img src="https://game.42sp.org.br/static/assets/achievements/get_next_linem.png" alt="completion-with-bonus-badge" align="left">
+<img src="./assets/get_next_linem.png" alt="completion-with-bonus-badge" align="left">
 
 A **get_next_line** é capaz de ler uma linha de um arquivo de texto, identificado por um `file descriptor`, a cada chamada da função, utilizando uma `variável estática` para continuar de onde parou sem perder dados. Ela precisa ser capaz de lidar com diferentes arquivos de entrada e ler cada linha de forma independente. Se chamado em um loop, retorna todo o conteúdo de um arquivo, linha por linha, até o final. E assim como a libft, a função get_next_line poderá ser útil em projetos futuros.
 
